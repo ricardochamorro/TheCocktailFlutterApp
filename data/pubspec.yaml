@@ -1,0 +1,42 @@
+name: data
+description: Data Module for TheCocktailApp
+version: 0.0.1
+author: Ricardo J. Chamorro
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences:
+
+  domain:
+    path: ../domain
+
+  # inversion of control
+  get_it: ^7.2.0
+  injectable: ^1.1.0
+  # network
+  dio: ^4.0.0
+  retrofit: ^3.0.1+1
+  json_annotation: ^4.0.1
+
+  # database
+  floor: ^1.2.0
+  # logger
+  logger: ^1.0.0
+  json_serializable: ^6.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner:
+  injectable_generator:
+  retrofit_generator:
+  floor_generator:
+
+flutter:
