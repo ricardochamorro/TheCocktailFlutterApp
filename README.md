@@ -6,10 +6,10 @@ The author wants to show how to use Flutter technology for consuming TheCocktail
 
 ## Details
 
-*DAO, Dependency Injection Pattern
-*For Dependency Injection, get_it is used
-*This app makes use of offline first approach so after you load the data once, then you can use it offline.
-*This app uses FloorDB to internally store data
+* DAO, Dependency Injection Pattern
+* For Dependency Injection, get_it is used
+* This app makes use of offline first approach so after you load the data once, then you can use it offline.
+* This app uses FloorDB to internally store data
 
 ## Steps to build and launch this app into your own android emulator
 
