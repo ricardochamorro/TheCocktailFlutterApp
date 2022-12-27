@@ -110,7 +110,7 @@ class DrinkScreen extends CoreScreen<DrinkViewModel> {
                   width: size.width * 0.7,
                   child: ListView.builder(
                       shrinkWrap: true,
-                      itemCount: 3,
+                      itemCount: ingredients.length,
                       itemBuilder: (BuildContext context, int index) {
                         return Text(
                           '${ingredients[index]}',
