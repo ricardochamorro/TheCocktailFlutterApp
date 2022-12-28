@@ -1,6 +1,6 @@
 # The Cocktail Flutter App
 
-## Description
+## Description 
 
 The author wants to show how to use Flutter technology for consuming TheCocktailDB API
 
